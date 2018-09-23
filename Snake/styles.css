@@ -1,0 +1,43 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+#board {
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+  background-color: #123343;
+  height: 500px;
+  width: 1000px;
+  margin: auto;
+  padding: 0;
+  position: relative;
+}
+
+.snake {
+  width: 25px;
+  height: 25px;
+  background-color: #186d3f;
+  position: absolute;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid;
+}
+
+#food {
+  width: 25px;
+  height: 25px;
+  background-color: #B12B27;
+  display: inline-flex;
+  position: absolute;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid;
+}
